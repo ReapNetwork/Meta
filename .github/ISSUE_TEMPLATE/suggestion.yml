@@ -1,6 +1,6 @@
 name: Suggestion
 description: Send a Suggestion :)
-labels: ["bug", "pending"]
+labels: ["t: suggestion", "s: pending"]
 body:
   - type: input
     id: suggestion-name
