@@ -1,0 +1,20 @@
+name: Suggestion
+description: Send a Suggestion :)
+labels: ["bug", "pending"]
+body:
+  - type: input
+    id: suggestion-name
+    attributes:
+      label: What is the Suggestion?
+      description: Please describe the idea in a brief sentance or two.
+      placeholder: An amazing suggestion, a /find command :O
+    validations:
+      required: true
+  - type: input
+    id: suggestion-info
+    attributes:
+      label: In Depth Description
+      description: Give us an in-depth description of your idea
+      placeholder: My idea is to add a /find command, this will benefit players who want to find people across ReapNetwork
+    validations:
+      required: true
